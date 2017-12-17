@@ -61,7 +61,7 @@ def train_neural_network(n_epochs):
     #importing data
     train_data_size = 400000
     test_data_size = 52000
-    with open('conv_training_data.pickle', 'rb') as file:
+    with open('conv_training_data_2m.pickle', 'rb') as file:
         dataset = pickle.load(file)
 
     x_train = dataset[0][:train_data_size]
