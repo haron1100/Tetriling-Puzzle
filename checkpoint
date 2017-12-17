@@ -1,0 +1,2 @@
+model_checkpoint_path: "trained_conv_net-4"
+all_model_checkpoint_paths: "trained_conv_net-4"
